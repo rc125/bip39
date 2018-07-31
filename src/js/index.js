@@ -1999,7 +1999,7 @@
                 setHdCoin(168);
             },
         },
-		{
+	{
             name: "HUSH - Hush",
             onSelect: function() {
                 network = bitcoinjs.bitcoin.networks.hush;
@@ -2340,6 +2340,13 @@
             onSelect: function() {
                 network = bitcoinjs.bitcoin.networks.slimcointn;
                 setHdCoin(111);
+            },
+        },
+	{
+            name: "SMART - SmartCash",
+            onSelect: function() {
+                network = bitcoinjs.bitcoin.networks.smartcash;
+                setHdCoin(191);
             },
         },
         {
