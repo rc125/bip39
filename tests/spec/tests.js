@@ -1271,6 +1271,13 @@ it('Allows selection of HUSH', function(done) {
     };
     testNetwork(done, params);
 });
+it('Allows selection of SmartCash', function(done) {
+    var params = {
+        selectText: "SMART - SmartCash",
+        firstAddress: "SNPH5v9wAnnTnngXWxZHyMHo8JedMAdXsT",
+    };
+    testNetwork(done, params);
+});    
 
 
 // BIP39 seed is set from phrase
