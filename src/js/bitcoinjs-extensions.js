@@ -1287,3 +1287,14 @@ bitcoinjs.bitcoin.networks.energi = {
   scriptHash: 0x35,
   wif: 0x6a,
 };
+
+bitcoinjs.bitcoin.networks.smartcash = {
+  messagePrefix: 'SmartCash Signed Message:\n',
+  bip32: {
+    public: 0x0488b21e,
+    private: 0x0488ade4,
+  },
+  pubKeyHash: 0x3F,
+  scriptHash: 0x12,
+  wif: 0xBF,
+};
