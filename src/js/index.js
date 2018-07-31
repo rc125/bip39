@@ -2346,7 +2346,7 @@
             name: "SMART - SmartCash",
             onSelect: function() {
                 network = bitcoinjs.bitcoin.networks.smartcash;
-                setHdCoin(191);
+                setHdCoin(224);
             },
         },
         {
